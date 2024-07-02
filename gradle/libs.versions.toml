@@ -1,0 +1,10 @@
+[versions]
+junit = "5.10.2"
+jsoup = "1.17.2"
+xmlUnit = "2.10.0"
+
+[libraries]
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
+xmlUnitMatchers = { module = "org.xmlunit:xmlunit-matchers", version.ref = "xmlUnit" }
+
+[plugins]
